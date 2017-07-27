@@ -2,6 +2,8 @@
 
 namespace Lemarkis\Thumbnail;
 
+use Illuminate\Config\Repository as Config;
+
 class Thumbnail
 {
     var $config;
