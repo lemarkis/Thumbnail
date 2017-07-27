@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 
-class ThumbnailController extends \BaseController
+class ThumbnailController extends App\Http\Controllers\Controller
 {	
 	public function resize(Request $request)
     {
