@@ -1,0 +1,26 @@
+{
+    "name": "Lemarkis/Thumbnail",
+    "description": "Laravel thumbnail library",
+    "keywords": [
+        "laravel", "Lemarkis", "thumbnail", "image", "picture"
+    ],
+    "authors": [
+        {
+            "name": "Lemarkis",
+            "email": "jean.lemarquis@epitech.eu"
+        }
+    ],
+    "require": {
+        "illuminate/support": "5.*",
+        "imagine/imagine": "~0.7.1"
+    },
+    "autoload": {
+        "classmap": [
+            "src/controllers"
+        ],
+        "psr-0": {
+            "Lemarkis\\Thumbnail\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
