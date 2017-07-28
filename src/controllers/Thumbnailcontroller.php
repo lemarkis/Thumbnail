@@ -52,7 +52,7 @@ class ThumbnailController extends App\Http\Controllers\Controller
         }
         catch (\Exception $e)
         {
-			return Response::make($e->getMessage(), 404);
+			return Response::make($e->getMessage() . " path: {$path}", 404);
         }
 	}
 	
